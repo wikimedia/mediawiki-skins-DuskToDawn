@@ -1,0 +1,7 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"dusktodawn-page-edited": "Page last edited {{int:ago|$1}}",
+	"dusktodawn-page-edited-user": "Page last edited {{int:ago|$1}} by [[User:$2|$2]]"
+}
