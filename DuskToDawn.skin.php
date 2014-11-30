@@ -9,7 +9,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
  * @ingroup Skins
  */
 class SkinDuskToDawn extends SkinTemplate {
-	var $skinname = 'dusktodawn', $stylename = 'dusktodawn',
+	public $skinname = 'dusktodawn', $stylename = 'dusktodawn',
 		$template = 'DuskToDawnTemplate', $useHeadElement = true;
 
 	/**
@@ -21,7 +21,11 @@ class SkinDuskToDawn extends SkinTemplate {
 		parent::setupSkinUserCss( $out );
 
 		// Load CSS via ResourceLoader
-		$out->addModuleStyles( 'skins.dusktodawn' );
+		$out->addModuleStyles( array(
+			'mediawiki.skinning.interface',
+			'mediawiki.skinning.content.externallinks',
+			'skins.dusktodawn'
+		) );
 
 		// HTML5 shim has to be loaded this way for older IEs...
 		$out->addHeadItem( 'html5shim',
@@ -295,7 +299,7 @@ class DuskToDawnTemplate extends BaseTemplate {
 		foreach ( $this->getToolbox() as $key => $tbItem ) {
 			echo $this->makeListItem( $key, $tbItem );
 		}
-		wfRunHooks( 'MonoBookTemplateToolboxEnd', array( &$this ) );
+
 		wfRunHooks( 'SkinTemplateToolboxEnd', array( &$this, true ) );
 ?>
 		</ul>
