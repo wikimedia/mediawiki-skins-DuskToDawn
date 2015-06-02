@@ -31,5 +31,6 @@
 			],
 			"position": "top"
 		}
-	}
+	},
+	"manifest_version": 1
 }
