@@ -1,7 +1,13 @@
 <?php
-if ( !defined( 'MEDIAWIKI' ) ) {
-	die( -1 );
-}
+/**
+ * MediaWiki port of the WordPress theme Dusk To Dawn
+ *
+ * @file
+ * @author Automattic
+ * @author Jack Phoenix <jack@countervandalism.net> -- MediaWiki port
+ * @see http://theme.wordpress.com/themes/dusk-to-dawn/
+ * @see http://wp-themes.com/dusk-to-dawn/
+ */
 
 /**
  * Inherit main code from SkinTemplate, set the CSS and template filter.
