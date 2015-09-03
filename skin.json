@@ -21,15 +21,22 @@
 		"SkinDuskToDawn": "DuskToDawn.skin.php",
 		"DuskToDawnTemplate": "DuskToDawn.skin.php"
 	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteSkinPath": "DuskToDawn"
+	},
 	"ResourceModules": {
 		"skins.dusktodawn": {
 			"styles": {
-				"skins/DuskToDawn/resources/style.css": {
+				"resources/print.css": {
+					"media": "print"
+				},
+				"resources/style.css": {
 					"media": "screen"
 				}
 			},
 			"scripts": [
-				"/skins/DuskToDawn/resources/js/audio.js"
+				"resources/js/audio.js"
 			],
 			"position": "top"
 		}
