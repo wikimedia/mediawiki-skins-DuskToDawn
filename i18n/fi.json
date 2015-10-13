@@ -1,7 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jack Phoenix <jack@countervandalism.net>\r"
+			"Jack Phoenix <jack@countervandalism.net>"
 		]
 	},
 	"dusktodawn-page-edited": "Sivua muokattu viimeksi {{int:ago|$1}}",
