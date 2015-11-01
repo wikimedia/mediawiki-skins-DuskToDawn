@@ -563,7 +563,8 @@ a:hover {
 	letter-spacing: 1px;
 	line-height: 1.0em;
 	margin: 0 0 2px 0;
-	padding: 55px 0 0 0;
+	/* ashley: changed on 1 November 2015 for site notice/ads/general prettiness */
+	padding: 20px 0 0 0;
 	text-transform: uppercase;
 }
 .entry-meta {

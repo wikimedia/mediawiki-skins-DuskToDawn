@@ -126,6 +126,7 @@ class DuskToDawnTemplate extends BaseTemplate {
 				<div id="main" class="clear-fix">
 					<div id="primary">
 						<div id="content" class="mw-body-primary clear-fix" role="main">
+							<?php if ( $this->data['sitenotice'] ) { ?><div id="siteNotice"><?php $this->html( 'sitenotice' ) ?></div><?php } ?>
 							<article class="post hentry">
 								<header class="entry-header">
 									<div class="entry-meta noprint">
