@@ -54,12 +54,10 @@ class DuskToDawnTemplate extends BaseTemplate {
 	 * Almost verbatim copypasta from Aurora (/skins/Aurora/Aurora.skin.php)
 	 */
 	private function getLastEdited() {
-		global $wgContentNamespaces;
-
 		$title = $this->getSkin()->getTitle();
 		$msg = '';
 
-		if ( $title->exists() && in_array( $title->getNamespace(), $wgContentNamespaces ) ) {
+		if ( $title->exists() && $title->isContentPage() ) {
 			// First construct a Revision object from the current Title...
 			$revision = Revision::newFromTitle( $title );
 			if ( $revision instanceof Revision ) {
