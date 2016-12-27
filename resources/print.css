@@ -1,4 +1,5 @@
-/* Don't display the footer in printable mode
+/**
+ * Don't display the footer in printable mode
  * @see https://phabricator.wikimedia.org/T111434
  */
 #colophon {

@@ -1,18 +1,24 @@
-/*
-Theme Name: Dusk To Dawn
-Theme URI: http://theme.wordpress.com/themes/dusk-to-dawn/
-Author: Automattic
-Author URI: http://automattic.com/
-Description: A dark theme that melds old-style organic ornaments with modern design and typography. It features a custom header, custom background, and a widget area in the sidebar. It comes with support for several post formats including aside, gallery, image, quote, link, chat, and audio.
-Version: 1.3
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: black, blue, purple, dark, two-columns, left-sidebar, right-sidebar, fixed-width, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
-*/
+/**
+ * Theme Name: Dusk To Dawn
+ * Theme URI: http://theme.wordpress.com/themes/dusk-to-dawn/
+ * Author: Automattic
+ * Author URI: http://automattic.com/
+ * Description: A dark theme that melds old-style organic ornaments
+ * with modern design and typography. It features a custom header,
+ * custom background, and a widget area in the sidebar. It comes with
+ * support for several post formats including aside, gallery,
+ * image, quote, link, chat, and audio.
+ * Version: 1.3
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ */
 
 
-/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
--------------------------------------------------------------- */
+/**
+ * Reset default browser CSS.
+ * Based on work by Eric Meyer:
+ * http://meyerweb.com/eric/tools/css/reset/index.html
+ */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -32,7 +38,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	padding: 0;
 	vertical-align: baseline;
 }
-:focus {/* remember to define focus styles! */
+:focus {
+	/* remember to define focus styles! */
 	outline: 0;
 }
 body {
@@ -44,7 +51,8 @@ body {
 ol, ul {
 	list-style: none;
 }
-table {/* tables still need 'cellspacing="0"' in the markup */
+table {
+	/* tables still need 'cellspacing="0"' in the markup */
 	border-collapse: separate;
 	border-spacing: 0;
 }
@@ -78,8 +86,7 @@ section {
 }
 
 
-/* =Clear
--------------------------------------------------------------- */
+/* Clear */
 
 .clear {
 	clear: both;
@@ -93,8 +100,7 @@ section {
 	visibility: hidden;
 }
 
-/* =Structure
--------------------------------------------------------------- */
+/* Structure */
 
 html,
 body {
@@ -181,7 +187,6 @@ body {
 .screen-reader-text,
 .assistive-text {
 	position: absolute !important;
-	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
 	clip: rect(1px, 1px, 1px, 1px);
 }
 /* Alignment */
@@ -201,24 +206,16 @@ body {
 }
 
 
-/* =Global
--------------------------------------------------------------- */
+/* Global */
 
 #super-super-wrapper {
-	background: linear-gradient(bottom, rgb(255,203,112) 0%, rgb(107,138,169) 30%, rgb(1,44,87) 100%);
-	background: -o-linear-gradient(bottom, rgb(255,203,112) 0%, rgb(107,138,169) 30%, rgb(1,44,87) 100%);
-	background: -moz-linear-gradient(bottom, rgb(255,203,112) 0%, rgb(107,138,169) 30%, rgb(1,44,87) 100%);
-	background: -webkit-linear-gradient(bottom, rgb(255,203,112) 0%, rgb(107,138,169) 30%, rgb(1,44,87) 100%);
-	background: -ms-linear-gradient(bottom, rgb(255,203,112) 0%, rgb(107,138,169) 30%, rgb(1,44,87) 100%);
+	background: linear-gradient( bottom, rgb( 255,203,112 ) 0%, rgb( 107,138,169 ) 30%, rgb( 1,44,87 ) 100% );
+	background: -o-linear-gradient( bottom, rgb( 255,203,112 ) 0%, rgb( 107,138,169 ) 30%, rgb( 1,44,87 ) 100% );
+	background: -moz-linear-gradient( bottom, rgb( 255,203,112 ) 0%, rgb( 107,138,169 ) 30%, rgb( 1,44,87 ) 100% );
+	background: -webkit-linear-gradient( bottom, rgb( 255,203,112 ) 0%, rgb( 107,138,169 ) 30%, rgb( 1,44,87 ) 100%);
+	background: -ms-linear-gradient( bottom, rgb( 255,203,112 ) 0%, rgb( 107,138,169 ) 30%, rgb( 1,44,87 ) 100% );
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#012c57', endColorstr='#ffcb70'); /* for IE */
-	background: -webkit-gradient(
-		linear,
-		left bottom,
-		left top,
-		color-stop(0, rgb(255,203,112)),
-		color-stop(0.3, rgb(107,138,169)),
-		color-stop(1, rgb(1,44,87))
-	);
+	background: -webkit-gradient( linear, left bottom, left top, color-stop( 0, rgb ( 255,203,112 ) ), color-stop(0.3, rgb( 107,138,169 ) ), color-stop(1, rgb(1,44,87) ) );
 }
 #super-wrapper {
 	/* @embed */
@@ -230,7 +227,6 @@ body {
 	background: url(images/ornaments-bottom.png) no-repeat center bottom;
 }
 #main {
-	-webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 0 6px;
 	box-shadow: rgba(0, 0, 0, 0.4) 0 0 6px;
 }
 body,
@@ -376,16 +372,13 @@ sub {
 	top: .5ex;
 }
 
-
-/* =Forms
--------------------------------------------------------------- */
+/* Forms */
 
 input[type=text],
 input[type=email],
 input[type=password],
 textarea {
 	background: #fafafa;
-	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
 	box-shadow: inset 0 1px 1px rgba(0,0,0,0.1);
 	border: 1px solid #e7d9b9;
 	border-radius: 3px;
@@ -434,8 +427,7 @@ a:hover {
 }
 
 
-/* =Header
--------------------------------------------------------------- */
+/* Header */
 
 #branding hgroup {
 	background-color: #0b0e18;
@@ -468,8 +460,7 @@ a:hover {
 }
 
 
-/* =Content
--------------------------------------------------------------- */
+/* Content */
 
 .sticky {
 	background-color: #f6f6f6;
@@ -754,8 +745,7 @@ body.attachment #content nav {
 }
 
 
-/* =Post Formats
--------------------------------------------------------------- */
+/* Post Formats */
 
 .entry-format:after {
 	content: '\0020\2013';
@@ -814,18 +804,21 @@ html.dusktodawn-wav .player.wav .audio-file-link {
 }
 
 /* =Images
--------------------------------------------------------------- */
+*/
 
 a img {
 	border: none;
 }
 p img {
-	margin-bottom: 6px; /* a small bottom margin prevents content floating under images */
+	/* a small bottom margin prevents content floating under images */
+	margin-bottom: 6px;
 }
-/*
-Resize images to fit the main content area.
-- Applies only to images uploaded via WordPress by targeting size-* classes.
-- Other images will be left alone. Use "size-auto" class to apply to other images.
+/**
+ * Resize images to fit the main content area.
+ * Applies only to images uploaded via WordPress by
+ * targeting size-* classes. Other images will be
+ * left alone. Use "size-auto" class to apply to
+ * other images.
 */
 img.size-auto,
 img.size-full,
@@ -838,8 +831,10 @@ img.size-medium,
 .entry-content dt img,
 .post-format-content img,
 .wp-caption img {
-	max-width: 100%; /* When images are too wide for containing element, force them to fit. */
-	height: auto; /* Override height to match resized width for correct aspect ratio. */
+	/* When images are too wide for containing element, force them to fit. */
+	max-width: 100%;
+	/* Override height to match resized width for correct aspect ratio. */
+	height: auto;
 }
 #ie8 img.size-large {
 	width: auto;
@@ -875,8 +870,7 @@ object {
 }
 
 
-/* =Comments
--------------------------------------------------------------- */
+/* Comments */
 
 #comments {
 	clear: both;
@@ -1031,8 +1025,7 @@ ol .comment-body ol ul {
 }
 
 
-/* =Sidebar
--------------------------------------------------------------- */
+/* Sidebar */
 
 /* Menu */
 #access {
@@ -1065,7 +1058,7 @@ ol .comment-body ol ul {
 #access ul ul {
 	background: #222;
 	background: rgba(0, 0, 0, 0.8);
-	-webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 1px 2px;
+
 	box-shadow: rgba(0, 0, 0, 0.4) 0 1px 2px;
 	display: none;
 	font-size: 1em;
@@ -1239,8 +1232,7 @@ ol .comment-body ol ul {
 	padding: 3px 0;
 }
 
-/* =Footer
--------------------------------------------------------------- */
+/* Footer */
 
 #colophon {
 	background-color: #0b0e18;
@@ -1256,8 +1248,7 @@ ol .comment-body ol ul {
 }
 
 
-/* =WP.com
--------------------------------------------------------------- */
+/* WP.com */
 
 #wpstats {
 	display: block;
@@ -1267,8 +1258,7 @@ ol .comment-body ol ul {
 }
 
 
-/* =Jetpack: Infinite Scroll
--------------------------------------------------------------- */
+/* Jetpack: Infinite Scroll */
 .infinite-scroll #content .infinite-wrap {
 	border-top: none;
 	padding-top: 0;
@@ -1343,7 +1333,11 @@ header#branding div {
 	width: 474px;
 }
 
-/* Make the site name in the header white instead of black, which is the default for the h1 element */
+/**
+ * Make the site name in the header white
+ * instead of black, which is the default
+ * for the h1 element
+ */
 header#branding h1 {
 	color: #FFF;
 }
@@ -1375,7 +1369,10 @@ footer#colophon #f-poweredbyico {
 	padding-right: 5px;
 }
 
-/* Hacky RTL fixes from the WordPress version's rtl.css -- ironically enough this is easier than flipping the image... */
+/**
+ * Hacky RTL fixes from the WordPress version's rtl.css
+ * ironically enough this is easier than flipping the image...
+ */
 /* @noflip */body.rtl input#searchInput {
 	/* @embed */
 	background: #000 url(images/search-ltr.png) no-repeat scroll 96% 8px;
@@ -1514,8 +1511,11 @@ div.g-give-container {
 	width: auto;
 }
 
-/* Social tools' clearfix thingy, required for the proper display of most
-social tools' special pages, such as Special:UserActivity, Special:TopUserboxes, etc. */
+/**
+ * Social tools' clearfix thingy, required for the
+ * proper display of most social tools' special pages,
+ * such as Special:UserActivity, Special:TopUserboxes, etc.
+ */
 .cleared {
 	clear: both;
 }
@@ -1556,28 +1556,43 @@ div.category-section div.categorytext, textarea#pageCtg {
 	width: auto !important;
 }
 
-/* Scale down the user boxes on social profiles so that they don't overlap with
-the user activity section */
+/**
+ * Scale down the user boxes on social profiles so
+ * that they don't overlap with the user activity
+ * section
+ */
 div#user-page-left .individual-fanbox {
 	width: 245px;
 }
 
-/* "Add this box to your userpage?" after clicking on a user box on someone else's profile */
+/**
+ * "Add this box to your userpage?" after clicking
+ * on a user box on someone else's profile
+ */
 div.fanbox-pop-up-box-profile {
 	width: 181px;
 }
 
-/* "You have successfully added this userbox to your userpage." after adding a user box via someone else's profile */
+/**
+ * "You have successfully added this userbox to your userpage."
+ * after adding a user box via someone else's profile
+ */
 div.show-addremove-message-half {
 	width: 180px;
 }
 
-/* Why won't this work when combined with the above rule??? Why do I have to resort to a pixel-based fixed width? */
+/**
+ * Why won't this work when combined with the above rule???
+ * Why do I have to resort to a pixel-based fixed width?
+ */
 div#create-tagcloud {
 	width: 500px !important;
 }
 
-/* Miscellaneous hacky fixes for the image uploading functionality */
+/**
+ * Miscellaneous hacky fixes for the image uploading
+ * functionality
+ */
 div.create-fanbox-image iframe {
 	width: 495px;
 }
@@ -1588,10 +1603,12 @@ input#wpUploadFile {
 }
 */
 
-/** LinkFilter */
-/* "About the Submitter" box on individual Link: pages */
-/* TODO FIXME: this doesn't scale like at all.
-This only works with the English default text, and even with that, barely.
+/**
+ * LinkFilter
+ * "About the Submitter" box on individual Link: pages
+ * TODO FIXME: this doesn't scale like at all. This only
+ * works with the English default text, and even
+ * with that, barely.
 div.link-left-units {
 	width: 100px;
 }
