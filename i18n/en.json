@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": []
 	},
+	"dusktodawn-desc": "A dark theme that melds old-style organic ornaments with modern design and typography",
 	"dusktodawn-page-edited": "Page last edited {{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "Page last edited {{int:ago|$1}} by [[User:$2|$2]]"
 }

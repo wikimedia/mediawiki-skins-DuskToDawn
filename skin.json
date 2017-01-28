@@ -6,7 +6,7 @@
 		"Jack Phoenix"
 	],
 	"url": "https://www.mediawiki.org/wiki/Skin:DuskToDawn",
-	"description": "A dark theme that melds old-style organic ornaments with modern design and typography",
+	"descriptionmsg": "dusktodawn-desc",
 	"license-name": "GPL-2.0+",
 	"type": "skin",
 	"ValidSkinNames": {
