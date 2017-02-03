@@ -1511,27 +1511,6 @@ div.g-give-container {
 	width: auto;
 }
 
-/**
- * Social tools' clearfix thingy, required for the
- * proper display of most social tools' special pages,
- * such as Special:UserActivity, Special:TopUserboxes, etc.
- */
-.cleared {
-	clear: both;
-}
-
-.clearfix:after {
-	content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
-}
-
-.clearfix {
-	display: inline-block;
-}
-
 /** Comments */
 div#allcomments .full,
 div#allcomments .reply {
