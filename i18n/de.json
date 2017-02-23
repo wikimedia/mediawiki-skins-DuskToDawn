@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Metalhead64"
+		]
+	},
+	"dusktodawn-desc": "Eine dunkle Benutzeroberfläche, die organische Ornamente im alten Stil mit einer modernen Aufmachung und Typografie verschmelzt.",
+	"dusktodawn-page-edited": "Seite zuletzt bearbeitet {{int:ago|$1}}",
+	"dusktodawn-page-edited-user": "Seite zuletzt bearbeitet {{int:ago|$1}} von [[User:$2|$2]]"
+}

@@ -1,5 +1,5 @@
 {
-	"@metadata": {},
+	"@metadata": [],
 	"dusktodawn-desc": "{{desc|what=skin|name=DuskToDawn|url=https://www.mediawiki.org/wiki/Skin:DuskToDawn}}",
 	"dusktodawn-page-edited": "This message is shown in header of each page when no user is knwon.\n\nParameters:\n* $1 - date and time\nSee also:\n* {{msg-mw|dusktodawn-page-edited-user}}",
 	"dusktodawn-page-edited-user": "This message is shown in header of each page.\n\nParameters:\n* $1 - date and time\n* $2 - user name\nSee also:\n* {{msg-mw|dusktodawn-page-edited}}"
