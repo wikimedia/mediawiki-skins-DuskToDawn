@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elias Ahmmad"
+		]
+	},
+	"dusktodawn-page-edited": "পাতা {{int:ago|$1}} সর্বশেষ সম্পাদিত",
+	"dusktodawn-page-edited-user": "পাতা [[User:$2|$2]] দ্বারা {{int:ago|$1}} সর্বশেষ সম্পাদিত"
+}

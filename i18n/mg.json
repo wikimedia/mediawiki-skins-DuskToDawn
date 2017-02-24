@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jagwar"
+		]
+	},
+	"dusktodawn-page-edited": "Pejy novaina farany tamin'ny {{int:ago|$1}}",
+	"dusktodawn-page-edited-user": "Pejy novain'i [[User:$2|$2]] farany tamin'ny {{int:ago|$1}}"
+}

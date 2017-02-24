@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chrumps"
+		]
+	},
+	"dusktodawn-page-edited": "Strona ostatnio edytowana {{int:ago|$1}}",
+	"dusktodawn-page-edited-user": "Strona ostatnio edytowana {{int:ago|$1}} przez [[User:$2|$2]]"
+}

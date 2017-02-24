@@ -4,5 +4,6 @@
 			"Redredsonia"
 		]
 	},
-	"dusktodawn-page-edited": "Страница последний раз редактировалось {{int:назад|$1}}"
+	"dusktodawn-page-edited": "Страница последний раз редактировалось {{int:назад|$1}}",
+	"dusktodawn-page-edited-user": "Страница последний раз редактировалась {{int:назад|$1}} [[User:$2|$2]]"
 }
