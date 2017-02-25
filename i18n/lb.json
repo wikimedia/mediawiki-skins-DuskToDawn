@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"dusktodawn-page-edited": "Säit fir d'lescht geännert {{int:ago|$1}}",
+	"dusktodawn-page-edited-user": "Säit fir d'lescht geännert {{int:ago|$1}} vum [[User:$2|$2]]"
+}
