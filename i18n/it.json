@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Redredsonia"
+			"Redredsonia",
+			"Beta16"
 		]
 	},
-	"dusktodawn-page-edited": "Ultima modifica della pagina {{int:fa|$1}}"
+	"dusktodawn-page-edited": "Ultima modifica della pagina {{int:ago|$1}}"
 }
