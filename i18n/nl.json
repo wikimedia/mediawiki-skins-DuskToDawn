@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98"
+		]
+	},
+	"dusktodawn-page-edited": "Pagina laatst bewerkt {{int:ago|$1}}",
+	"dusktodawn-page-edited-user": "Pagina laatst bewerkt {{int:ago|$1}} door [[User:$2|$2]]"
+}
