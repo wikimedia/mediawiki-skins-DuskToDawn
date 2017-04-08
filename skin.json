@@ -1,6 +1,6 @@
 {
 	"name": "Dusk To Dawn",
-	"version": "1.3.4",
+	"version": "1.3.5",
 	"author": [
 		"[http://automattic.com/ Automattic]",
 		"Jack Phoenix",
@@ -44,7 +44,7 @@
 	},
 	"ResourceModuleSkinStyles": {
 		"dusktodawn": {
-			"+mediawiki.special.preferences": "resources/special.preferences.css"
+			"+mediawiki.special.preferences.styles": "resources/special.preferences.styles.css"
 		}
 	},
 	"manifest_version": 1
