@@ -4,6 +4,7 @@
 			"Felipe L. Ewald"
 		]
 	},
-	"dusktodawn-page-edited": "Última edição da página {{int:ago|$1}}",
-	"dusktodawn-page-edited-user": "Última edição da página {{int:ago|$1}} por [[User:$2|$2]]"
+	"dusktodawn-desc": "Um tema escuro que combina ornamentos orgânicos de estilo antigo com design moderno e tipografia",
+	"dusktodawn-page-edited": "Última edição da página em {{int:ago|$1}}",
+	"dusktodawn-page-edited-user": "Última edição da página em {{int:ago|$1}} por [[User:$2|$2]]"
 }
