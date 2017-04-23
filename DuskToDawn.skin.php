@@ -33,15 +33,6 @@ class SkinDuskToDawn extends SkinTemplate {
 			'skins.dusktodawn'
 		) );
 
-		// HTML5 shim has to be loaded this way for older IEs...
-		$out->addHeadItem( 'html5shim',
-			'<!--[if lt IE 9]>' .
-			Html::element( 'script', array(
-				'src' => $wgStylePath . '/DuskToDawn/resources/js/html5.js',
-				'type' => 'text/javascript'
-			) ) . '<![endif]-->'
-		);
-
 		// And JS too!
 		$out->addModuleScripts( 'skins.dusktodawn' );
 	}
