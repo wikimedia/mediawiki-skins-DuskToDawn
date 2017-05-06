@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sfic"
+		]
+	},
+	"dusktodawn-page-edited": "पृष्ठ का अंतिम सम्पादन {{int:ago|$1}} को हुआ",
+	"dusktodawn-page-edited-user": "पृष्ठ का अंतिम सम्पादन [[User:$2|$2]] ने {{int:ago|$1}} को किया।"
+}
