@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"烈羽"
+			"烈羽",
+			"Wehwei"
 		]
 	},
+	"dusktodawn-desc": "結合古典氣質裝飾和現代設計排版的暗色主題",
 	"dusktodawn-page-edited": "頁面最後編輯於 {{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "頁面最後由 [[User:$2|$2]] 編輯於 {{int:ago|$1}}"
 }
