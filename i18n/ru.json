@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Redredsonia"
+			"Redredsonia",
+			"Facenapalm"
 		]
 	},
+	"dusktodawn-desc": "Тёмная тема, объединяющая старомодные органические украшения с современным дизайном и типографией",
 	"dusktodawn-page-edited": "Страница последний раз редактировалось {{int:назад|$1}}",
 	"dusktodawn-page-edited-user": "Страница последний раз редактировалась {{int:назад|$1}} [[User:$2|$2]]"
 }
