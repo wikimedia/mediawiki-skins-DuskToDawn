@@ -127,7 +127,7 @@ class DuskToDawnTemplate extends BaseTemplate {
 								</header><!-- .entry-header -->
 
 								<div id="jump-to-nav" class="mw-jump"><?php $this->msg( 'jumpto' ) ?> <a href="#secondary"><?php $this->msg( 'jumptonavigation' ) ?></a><?php $this->msg( 'comma-separator' ) ?><a href="#searchInput"><?php $this->msg( 'jumptosearch' ) ?></a></div>
-								<div class="entry-content mw-body">
+								<div class="entry-content mw-body-content">
 									<?php if ( $this->data['newtalk'] ) { ?><div class="usermessage"><?php $this->html( 'newtalk' ) ?></div><?php } ?>
 									<!-- start content -->
 									<?php
