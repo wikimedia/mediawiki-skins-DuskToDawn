@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"dusktodawn-desc": "Ei mørk drakt som blander organisk pynt i gammel stil med moderne design og typografi",
+	"dusktodawn-page-edited": "Siden sist redigert {{int:ago|$1}}",
+	"dusktodawn-page-edited-user": "Siden sist redigert {{int:ago|$1}} av [[User:$2|$2]]"
+}
