@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joedalton"
+		]
+	},
+	"dusktodawn-desc": "Et mørkt tema som blander ældre organiske ornamenter med moderne design og typografi",
+	"dusktodawn-page-edited": "Side sidst redigeret {{int:ago|$1}}",
+	"dusktodawn-page-edited-user": "Side sidst redigeret {{int:ago|$1}} af [[User:$2|$2]]"
+}
