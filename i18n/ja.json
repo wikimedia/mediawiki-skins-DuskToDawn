@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hinaloe"
+		]
+	},
+	"dusktodawn-page-edited": "最終更新: {{int:ago|$1}}",
+	"dusktodawn-page-edited-user": "[[User:$2|$2]] による最終更新: {{int:ago|$1}}"
+}
