@@ -19,8 +19,8 @@
 		]
 	},
 	"AutoloadClasses": {
-		"SkinDuskToDawn": "DuskToDawn.skin.php",
-		"DuskToDawnTemplate": "DuskToDawn.skin.php"
+		"SkinDuskToDawn": "includes/SkinDuskToDawn.php",
+		"DuskToDawnTemplate": "includes/DuskToDawnTemplate.php"
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
