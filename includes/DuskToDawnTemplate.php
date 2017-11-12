@@ -4,7 +4,7 @@
  *
  * @file
  * @author Automattic
- * @author Jack Phoenix <jack@countervandalism.net> -- MediaWiki port
+ * @author Jack Phoenix -- MediaWiki port
  * @see http://theme.wordpress.com/themes/dusk-to-dawn/
  * @see http://wp-themes.com/dusk-to-dawn/
  */
