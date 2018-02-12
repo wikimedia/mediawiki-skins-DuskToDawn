@@ -38,8 +38,7 @@
 			},
 			"scripts": [
 				"resources/js/audio.js"
-			],
-			"position": "top"
+			]
 		}
 	},
 	"ResourceModuleSkinStyles": {
