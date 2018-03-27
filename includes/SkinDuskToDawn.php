@@ -7,7 +7,7 @@
  */
 class SkinDuskToDawn extends SkinTemplate {
 	public $skinname = 'dusktodawn', $stylename = 'dusktodawn',
-		$template = 'DuskToDawnTemplate', $useHeadElement = true;
+		$template = 'DuskToDawnTemplate';
 
 	/**
 	 * @param $out OutputPage
