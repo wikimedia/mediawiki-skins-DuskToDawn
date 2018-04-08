@@ -22,8 +22,6 @@ class SkinDuskToDawn extends SkinTemplate {
 	 * @param $out OutputPage
 	 */
 	function setupSkinUserCss( OutputPage $out ) {
-		global $wgStylePath;
-
 		parent::setupSkinUserCss( $out );
 
 		// Load CSS via ResourceLoader

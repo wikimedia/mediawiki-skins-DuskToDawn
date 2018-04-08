@@ -704,7 +704,7 @@ table.diff {
 /** ProblemReports */
 /* default padding for the dialog sucks */
 #reportProblem input[type="text"], #reportProblem textarea, #reportProblem select {
-    padding: inherit !important;
+	padding: inherit !important;
 }
 
 /** CSS fixes for social tools -- verbatim copypasta from /skins/Dusk/resources/css/main.css */

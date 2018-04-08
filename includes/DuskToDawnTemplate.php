@@ -31,12 +31,12 @@ class DuskToDawnTemplate extends BaseTemplate {
 				// function.
 				$formattedTS = $this->getSkin()->getLanguage()->formatTimePeriod(
 					time() - $unixTS,
-					array(
+					[
 						'noabbrevs' => true,
 						// There doesn't appear to be an 'avoidhours'; if there
 						// were, we'd use it so that this'd match the mockup.
 						'avoid' => 'avoidminutes'
-					)
+					]
 				);
 
 				// Get the last editor's username (if any), too
@@ -76,8 +76,8 @@ class DuskToDawnTemplate extends BaseTemplate {
 			<div id="page" class="hfeed">
 				<header id="branding" role="banner">
 					<div>
-						<h1 class="firstHeading"><span dir="auto"><?php echo Html::element( 'a', array(
-							'href' => $this->data['nav_urls']['mainpage']['href'] )
+						<h1 class="firstHeading"><span dir="auto"><?php echo Html::element( 'a', [
+							'href' => $this->data['nav_urls']['mainpage']['href'] ]
 							+ Linker::tooltipAndAccesskeyAttribs( 'p-logo' ), $wgSitename ); ?></span></h1>
 						<h2 id="site-description"><?php $this->msg( 'tagline' ) ?></h2>
 					</div>
@@ -226,11 +226,11 @@ class DuskToDawnTemplate extends BaseTemplate {
 									<label class="screen-reader-text" for="searchInput"><?php $this->msg( 'search' ) ?></label>
 									<input type="hidden" name="title" value="<?php $this->text( 'searchtitle' ) ?>"/>
 									<?php
-										echo $this->makeSearchInput( array( 'id' => 'searchInput' ) );
-										echo $this->makeSearchButton( 'go', array( 'id' => 'searchGoButton', 'class' => 'searchButton' ) );
+										echo $this->makeSearchInput( [ 'id' => 'searchInput' ] );
+										echo $this->makeSearchButton( 'go', [ 'id' => 'searchGoButton', 'class' => 'searchButton' ] );
 										if ( $wgUseTwoButtonsSearchForm ) {
 											echo '&#160;';
-											echo $this->makeSearchButton( 'fulltext', array( 'id' => 'mw-searchButton', 'class' => 'searchButton' ) );
+											echo $this->makeSearchButton( 'fulltext', [ 'id' => 'mw-searchButton', 'class' => 'searchButton' ] );
 										} else { ?>
 											<div><a href="<?php $this->text( 'searchaction' ) ?>" rel="search"><?php $this->msg( 'powersearch-legend' ) ?></a></div><?php
 										} ?>
@@ -268,7 +268,7 @@ class DuskToDawnTemplate extends BaseTemplate {
 		}
 		// Avoid PHP 7.1 warning of passing $this by reference
 		$template = $this;
-		Hooks::run( 'SkinTemplateToolboxEnd', array( &$template, true ) );
+		Hooks::run( 'SkinTemplateToolboxEnd', [ &$template, true ] );
 ?>
 		</ul>
 	</aside>
@@ -298,11 +298,11 @@ class DuskToDawnTemplate extends BaseTemplate {
 	 * @param $cont array|string
 	 */
 	function customBox( $bar, $cont ) {
-		$portletAttribs = array(
+		$portletAttribs = [
 			'class' => 'generated-sidebar widget',
 			'id' => Sanitizer::escapeId( "p-$bar" ),
 			'role' => 'navigation'
-		);
+		];
 		$tooltip = Linker::titleAttrib( "p-$bar" );
 		if ( $tooltip !== false ) {
 			$portletAttribs['title'] = $tooltip;
