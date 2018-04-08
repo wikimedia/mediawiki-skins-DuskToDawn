@@ -19,6 +19,15 @@ class SkinDuskToDawn extends SkinTemplate {
 		$template = 'DuskToDawnTemplate', $useHeadElement = true;
 
 	/**
+	 * @param OutputPage $out
+	 */
+	public function initPage( OutputPage $out ) {
+		parent::initPage( $out );
+
+		$out->addModules( 'skins.dusktodawn.audio' );
+	}
+
+	/**
 	 * @param $out OutputPage
 	 */
 	function setupSkinUserCss( OutputPage $out ) {
@@ -30,11 +39,8 @@ class SkinDuskToDawn extends SkinTemplate {
 		$out->addModuleStyles( array(
 			'mediawiki.skinning.interface',
 			'mediawiki.skinning.content.externallinks',
-			'skins.dusktodawn'
+			'skins.dusktodawn.styles'
 		) );
-
-		// And JS too!
-		$out->addModuleScripts( 'skins.dusktodawn' );
 	}
 }
 

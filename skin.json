@@ -27,7 +27,7 @@
 		"remoteSkinPath": "DuskToDawn"
 	},
 	"ResourceModules": {
-		"skins.dusktodawn": {
+		"skins.dusktodawn.styles": {
 			"styles": {
 				"resources/print.css": {
 					"media": "print"
@@ -36,10 +36,12 @@
 					"media": "screen"
 				}
 			},
+			"position": "top"
+		},
+		"skins.dusktodawn.audio": {
 			"scripts": [
 				"resources/js/audio.js"
-			],
-			"position": "top"
+			]
 		}
 	},
 	"ResourceModuleSkinStyles": {
