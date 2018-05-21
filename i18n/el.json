@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nikosgranturismogt"
+			"Nikosgranturismogt",
+			"Veronikialexopulos"
 		]
 	},
 	"dusktodawn-page-edited": "Η σελίδα επεξεργάστηκε για τελευταία φορά πριν {{int:ago|$1}}",
-	"dusktodawn-page-edited-user": "Η σελίδα επεξεργάστηκε στις {{int:ago|$1}} από τον  [[Χρήστη:$2|$2]]"
+	"dusktodawn-page-edited-user": "Η σελίδα επεξεργάστηκε τελευταία στις {{int:ago|$1}} από τον  [[User:$2|$2]]"
 }
