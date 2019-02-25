@@ -300,7 +300,7 @@ class DuskToDawnTemplate extends BaseTemplate {
 	function customBox( $bar, $cont ) {
 		$portletAttribs = [
 			'class' => 'generated-sidebar widget',
-			'id' => Sanitizer::escapeId( "p-$bar" ),
+			'id' => Sanitizer::escapeIdForAttribute( "p-$bar" ),
 			'role' => 'navigation'
 		];
 		$tooltip = Linker::titleAttrib( "p-$bar" );
