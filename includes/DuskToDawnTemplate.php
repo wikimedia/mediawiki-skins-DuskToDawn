@@ -97,7 +97,9 @@ class DuskToDawnTemplate extends BaseTemplate {
 									<?php if ( $this->data['undelete'] ) { ?><div id="contentSub2"><?php $this->html( 'undelete' ) ?></div><?php } ?>
 								</header><!-- .entry-header -->
 
-								<div id="jump-to-nav" class="mw-jump"><?php $this->msg( 'jumpto' ) ?> <a href="#secondary"><?php $this->msg( 'jumptonavigation' ) ?></a><?php $this->msg( 'comma-separator' ) ?><a href="#searchInput"><?php $this->msg( 'jumptosearch' ) ?></a></div>
+								<div id="jump-to-nav"></div>
+								<a class="mw-jump-link" href="#secondary"><?php $this->msg( 'dusktodawn-jump-to-navigation' ) ?></a>
+								<a class="mw-jump-link" href="#searchInput"><?php $this->msg( 'dusktodawn-jump-to-search' ) ?></a>
 								<div class="entry-content mw-body-content">
 									<?php if ( $this->data['newtalk'] ) { ?><div class="usermessage"><?php $this->html( 'newtalk' ) ?></div><?php } ?>
 									<!-- start content -->
