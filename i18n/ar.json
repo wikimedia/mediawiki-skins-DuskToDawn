@@ -5,6 +5,8 @@
 		]
 	},
 	"dusktodawn-desc": "مظهر مظلم يخلط الحلي العضوية على الطراز القديم مع التصميم الحديث والطباعة",
+	"dusktodawn-jump-to-navigation": "اذهب إلى التصفح",
+	"dusktodawn-jump-to-search": "اذهب إلى البحث",
 	"dusktodawn-page-edited": "آخر تحديث للصفحة {{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "آخر تحديث للصفحة {{int:ago|$1}} بواسطة [[User:$2|$2]]"
 }

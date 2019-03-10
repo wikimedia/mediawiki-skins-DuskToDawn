@@ -5,6 +5,8 @@
 		]
 	},
 	"dusktodawn-desc": "Темен изглед со мешавина од старински органски украси со современ дизајн и типографија",
+	"dusktodawn-jump-to-navigation": "Прејди на прегледникот",
+	"dusktodawn-jump-to-search": "Прејди на пребарувањето",
 	"dusktodawn-page-edited": "Последната промена на страницава е извршена {{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "Последната промена на страницава е извршена {{int:ago|$1}} од [[User:$2|$2]]"
 }

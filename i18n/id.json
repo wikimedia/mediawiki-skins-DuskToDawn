@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"William Surya Permana"
+			"William Surya Permana",
+			"Pebaryan"
 		]
 	},
 	"dusktodawn-desc": "Tema gelap yang memadukan ornamen organik bergaya tua dengan desain dan tipografi modern",
+	"dusktodawn-jump-to-navigation": "Pindah ke navigasi",
+	"dusktodawn-jump-to-search": "Pindah ke pencarian",
 	"dusktodawn-page-edited": "Halaman terakhir disunting {{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "Halaman terakhir disunting {{int:ago|$1}} oleh [[User:$2|$2]]"
 }

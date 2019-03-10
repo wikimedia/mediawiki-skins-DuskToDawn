@@ -5,6 +5,8 @@
 		]
 	},
 	"dusktodawn-desc": "Eine dunkle Benutzeroberfläche, die organische Ornamente im alten Stil mit einer modernen Aufmachung und Typografie verschmelzt.",
+	"dusktodawn-jump-to-navigation": "Zur Navigation springen",
+	"dusktodawn-jump-to-search": "Zur Suche springen",
 	"dusktodawn-page-edited": "Seite zuletzt bearbeitet {{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "Seite zuletzt bearbeitet {{int:ago|$1}} von [[User:$2|$2]]"
 }
