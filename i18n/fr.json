@@ -2,10 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Wladek92",
-			"Verdy p"
+			"Verdy p",
+			"Gomoko"
 		]
 	},
 	"dusktodawn-desc": "Un thème sombre qui allie les ornements organiques de style ancien avec un design et une typographie modernes",
+	"dusktodawn-jump-to-navigation": "Aller à la navigation",
+	"dusktodawn-jump-to-search": "Aller à la recherche",
 	"dusktodawn-page-edited": "Page modifiée la dernière fois {{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "Page modifiée la dernière fois {{int:ago|$1}} par [[User:$2|$2]]"
 }
