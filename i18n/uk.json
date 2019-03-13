@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Piramidion"
+			"Piramidion",
+			"Vlad5250"
 		]
 	},
 	"dusktodawn-desc": "Темна тема оформлення, в якій старомодні органічні орнаменти зливаються із сучасним дизайном і типографією",
+	"dusktodawn-jump-to-navigation": "Перейти до навігації",
+	"dusktodawn-jump-to-search": "Перейти до пошуку",
 	"dusktodawn-page-edited": "Сторінку востаннє відредаговано {{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "Сторінку востаннє відредаговано [[User:$2|$2]] {{int:ago|$1}}"
 }

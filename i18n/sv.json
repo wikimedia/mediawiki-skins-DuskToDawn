@@ -5,6 +5,8 @@
 		]
 	},
 	"dusktodawn-desc": "En mörk tema som kombinerar gammaldags ekologiska smycken med modern design och typografi",
+	"dusktodawn-jump-to-navigation": "Hoppa till navigering",
+	"dusktodawn-jump-to-search": "Hoppa till sök",
 	"dusktodawn-page-edited": "Sidan redigerades senast {{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "Sidan redigerades senast {{int:ago|$1}} av [[User:$2|$2]]"
 }
