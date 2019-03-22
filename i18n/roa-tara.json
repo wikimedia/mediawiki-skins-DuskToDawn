@@ -5,6 +5,8 @@
 		]
 	},
 	"dusktodawn-desc": "'Nu teme gniure ca mescke 'u stile andiche cu le decoraziune d'u disegne moderne e tipografeche",
+	"dusktodawn-jump-to-navigation": "Zumbe sus 'a navigazzione",
+	"dusktodawn-jump-to-search": "Zumbe sus 'a recerche",
 	"dusktodawn-page-edited": "Urtema pàgene cangiate {{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "Urtema pàgene cangiate {{int:ago|$1}} da [[User:$2|$2]]"
 }
