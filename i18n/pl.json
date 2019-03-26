@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrumps"
+			"Chrumps",
+			"Railfail536"
 		]
 	},
 	"dusktodawn-desc": "Ciemny motyw łączący starodawne ozdoby z nowoczesnym wzornictwem i typografią",
+	"dusktodawn-jump-to-navigation": "Przejdź do nawigacji",
+	"dusktodawn-jump-to-search": "Przejdź do wyszukiwania",
 	"dusktodawn-page-edited": "Strona ostatnio edytowana {{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "Strona ostatnio edytowana {{int:ago|$1}} przez [[User:$2|$2]]"
 }
