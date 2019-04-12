@@ -6,6 +6,8 @@
 		]
 	},
 	"dusktodawn-desc": "Tumma teema, joka sekoittaa vanhanaikaisia orgaanisia koristeita modernilla muotoilulla ja typografialla",
+	"dusktodawn-jump-to-navigation": "Siirry navigaatioon",
+	"dusktodawn-jump-to-search": "Siirry hakuun",
 	"dusktodawn-page-edited": "Sivua muokattu viimeksi {{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "Sivua muokannut viimeksi [[User:$2|$2]] {{int:ago|$1}}"
 }
