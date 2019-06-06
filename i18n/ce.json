@@ -4,6 +4,8 @@
 			"Умар"
 		]
 	},
+	"dusktodawn-jump-to-navigation": "Навигацин тӀегӀо",
+	"dusktodawn-jump-to-search": "Лахарна тӀегӀо",
 	"dusktodawn-page-edited": "АгӀона тӀеххьара хийцамаш бина {{int:хьалха|$1}}",
 	"dusktodawn-page-edited-user": "АгӀона тӀеххьара хийцамаш бина {{int:нахьалхазад|$1}} [[User:$2|$2]]"
 }
