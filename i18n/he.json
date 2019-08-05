@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amire80"
+			"Amire80",
+			"Steeve815"
 		]
 	},
 	"dusktodawn-desc": "ערכת נושא חשוכה שמערבבת בין קישוטים אורגנים בסגנון ישן עם עיצוב וטיפוגרפיה חדשים",
+	"dusktodawn-jump-to-navigation": "קפיצה לניווט",
 	"dusktodawn-page-edited": "הדף נערך לאחרונה {{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "הדף נערך לאחרונה {{int:ago|$1}} על־ידי [[User:$2|$2]]"
 }

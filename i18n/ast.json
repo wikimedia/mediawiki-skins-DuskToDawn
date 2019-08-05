@@ -5,6 +5,8 @@
 		]
 	},
 	"dusktodawn-desc": "Una decoración escura, qu'entemez adornos orgánicos d'estilu antiguu con diseñu y tipografía modernos",
+	"dusktodawn-jump-to-navigation": "Saltar a navegación",
+	"dusktodawn-jump-to-search": "Saltar a la gueta",
 	"dusktodawn-page-edited": "Última edición de la páxina {{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "Última edición de la páxina {{int:ago|$1}} por [[User:$2|$2]]"
 }
