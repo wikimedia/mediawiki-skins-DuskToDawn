@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ильнар"
+			"Ильнар",
+			"Ерней"
 		]
 	},
+	"dusktodawn-jump-to-navigation": "Навигациягә күчү",
+	"dusktodawn-jump-to-search": "Эзләүгә күчү",
 	"dusktodawn-page-edited-user": "Битне соңгы тапкыр {{int:ago|$1}} [[User:$2|$2]] мөхәррирләде"
 }
