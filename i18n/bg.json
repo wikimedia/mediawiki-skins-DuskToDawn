@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"StanProg"
+			"StanProg",
+			"Vlad5250"
 		]
 	},
 	"dusktodawn-desc": "Тъмен облик, смесица на орнаменти в стар стил с модерен дизайн и типография",
+	"dusktodawn-jump-to-navigation": "Направо към навигацията",
+	"dusktodawn-jump-to-search": "Направо към търсенето",
 	"dusktodawn-page-edited": "Последната промяна на страницата е направена {{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "Последната промяна на страницата е направена {{int:ago|$1}} от [[User:$2|$2]]"
 }
