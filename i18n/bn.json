@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Elias Ahmmad"
+			"Elias Ahmmad",
+			"আফতাবুজ্জামান"
 		]
 	},
+	"dusktodawn-jump-to-navigation": "পরিভ্রমণে ঝাঁপ দিন",
+	"dusktodawn-jump-to-search": "অনুসন্ধানে ঝাঁপ দিন",
 	"dusktodawn-page-edited": "পাতা {{int:ago|$1}} সর্বশেষ সম্পাদিত",
 	"dusktodawn-page-edited-user": "পাতা [[User:$2|$2]] দ্বারা {{int:ago|$1}} সর্বশেষ সম্পাদিত"
 }
