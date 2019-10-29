@@ -5,8 +5,8 @@
 		]
 	},
 	"dusktodawn-desc": "Tamna tema koja kombinuje staromodne organske ornamente sa modernim dizajnom i tipografijom",
-	"dusktodawn-jump-to-navigation": "Idi na navigaciju",
-	"dusktodawn-jump-to-search": "Idi na pretragu",
+	"dusktodawn-jump-to-navigation": "Pređi na navigaciju",
+	"dusktodawn-jump-to-search": "Pređi na pretragu",
 	"dusktodawn-page-edited": "Stranica poslednji put uređivana na datum {{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "Stranica poslednji put uređivana na datum {{int:ago|$1}} od korisnika [[User:$2|$2]]"
 }
