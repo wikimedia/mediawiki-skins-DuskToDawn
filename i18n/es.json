@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Fitoschido"
+			"Fitoschido",
+			"DannyS712"
 		]
 	},
 	"dusktodawn-desc": "Un tema oscuro que combina ornamentos clásicos con elementos de diseño y tipográficos modernos",
+	"dusktodawn-jump-to-navigation": "Ir a la navegación",
+	"dusktodawn-jump-to-search": "Ir a la búsqueda",
 	"dusktodawn-page-edited": "Página modificada por última vez {{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "Página modificada por última vez {{int:ago|$1}} por [[User:$2|$2]]"
 }
