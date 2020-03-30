@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"500000000006城"
 		]
 	},
 	"dusktodawn-desc": "结合旧式有机装饰品与现代设计和排版的黑暗主题",
+	"dusktodawn-jump-to-navigation": "跳转到导航栏",
+	"dusktodawn-jump-to-search": "跳转到搜索",
 	"dusktodawn-page-edited": "页面上次编辑于{{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "页面上次由[[User:$2|$2]]编辑于{{int:ago|$1}}"
 }
