@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"dusktodawn-desc": "{{desc|what=skin|name=DuskToDawn|url=https://www.mediawiki.org/wiki/Skin:DuskToDawn}}",
 	"dusktodawn-jump-to-navigation": "Accessibility link for jumping to the navigation links. Visually hidden by default.\n\nSee also\n* {{msg-mw|Navigation}}",
 	"dusktodawn-jump-to-search": "Accessibility link for jumping to the site search. Visually hidden by default.\n\nSee also\n* {{msg-mw|Search}}",
