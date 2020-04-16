@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Alirezaaa",
+			"FarsiNevis",
 			"Reza1615"
 		]
 	},
+	"dusktodawn-jump-to-search": "پرش به جستجو",
 	"dusktodawn-page-edited": "آخرین ویرایش صفحه {{int:پیش|$1}}",
 	"dusktodawn-page-edited-user": "آخرین ویرایش صفحه {{int:ago|$1}} توسط [[User:$2|$2]] صورت گرفته‌است"
 }
