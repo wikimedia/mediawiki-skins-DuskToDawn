@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"1917 Ekim Devrimi",
 			"Mirzali"
 		]
 	},
+	"dusktodawn-desc": "Modern dizayna u pê tipografi ya kehan çiyê susê organiki rê temay tarıyi",
 	"dusktodawn-jump-to-navigation": "Xıl de pusula",
-	"dusktodawn-jump-to-search": "Xıl de cıgeyrayışi"
+	"dusktodawn-jump-to-search": "Xıl de cıgeyrayışi",
+	"dusktodawn-page-edited": "Tewr vurnayışo peyên {{int:ago| $1}}",
+	"dusktodawn-page-edited-user": "Tewr vurnayışo peyên {{int:ago| $1}} $2 ra biyo"
 }
