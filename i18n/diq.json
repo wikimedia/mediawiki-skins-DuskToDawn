@@ -6,8 +6,8 @@
 		]
 	},
 	"dusktodawn-desc": "Modern dizayna u pê tipografi ya kehan çiyê susê organiki rê temay tarıyi",
-	"dusktodawn-jump-to-navigation": "Xıl de pusula",
-	"dusktodawn-jump-to-search": "Xıl de cıgeyrayışi",
-	"dusktodawn-page-edited": "Tewr vurnayışo peyên {{int:ago| $1}}",
-	"dusktodawn-page-edited-user": "Tewr vurnayışo peyên {{int:ago| $1}} $2 ra biyo"
+	"dusktodawn-jump-to-navigation": "Pusulay ravêrê",
+	"dusktodawn-jump-to-search": "Cıgeyrayışi ravêrê",
+	"dusktodawn-page-edited": "Vurnayışê peyênê pela {{int:ago| $1}}",
+	"dusktodawn-page-edited-user": "Tewr vurnayışo peyên {{int:ago| $1}} terefê [[User:$2|$2]] ra biyo"
 }
