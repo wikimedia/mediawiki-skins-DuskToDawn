@@ -21,36 +21,34 @@ class DuskToDawnTemplate extends BaseTemplate {
 
 		if ( $title->exists() && $title->isContentPage() ) {
 			// First construct a Revision object from the current Title...
-			$revision = Revision::newFromTitle( $title );
-			if ( $revision instanceof Revision ) {
-				// ...then get its timestamp...
-				$timestamp = $revision->getTimestamp();
-				// ...turn it into a UNIX timestamp...
-				$unixTS = wfTimestamp( TS_UNIX, $timestamp );
-				// ..and pass everything to MediaWiki's crazy formatter
-				// function.
-				$formattedTS = $this->getSkin()->getLanguage()->formatTimePeriod(
-					time() - $unixTS,
-					[
-						'noabbrevs' => true,
-						// There doesn't appear to be an 'avoidhours'; if there
-						// were, we'd use it so that this'd match the mockup.
-						'avoid' => 'avoidminutes'
-					]
-				);
+			$page = Wikipage::factory( $title );
+			// ...then get its timestamp...
+			$timestamp = $page->getTimestamp();
+			// ...turn it into a UNIX timestamp...
+			$unixTS = wfTimestamp( TS_UNIX, $timestamp );
+			// ..and pass everything to MediaWiki's crazy formatter
+			// function.
+			$formattedTS = $this->getSkin()->getLanguage()->formatTimePeriod(
+				time() - $unixTS,
+				[
+					'noabbrevs' => true,
+					// There doesn't appear to be an 'avoidhours'; if there
+					// were, we'd use it so that this'd match the mockup.
+					'avoid' => 'avoidminutes'
+				]
+			);
 
-				// Get the last editor's username (if any), too
-				$author = $revision->getUserText();
+			// Get the last editor's username (if any), too
+			$author = $page->getUserText();
 
-				// Pick the correct internationalization message, depending on if
-				// the current user is allowed to access the revision's last author's
-				// name or not (hey, it could be RevisionDeleted, as Revision::getUserText()'s
-				// documentation states)
-				if ( $author ) {
-					$msg = wfMessage( 'dusktodawn-page-edited-user', $formattedTS, $author )->parse();
-				} else {
-					$msg = wfMessage( 'dusktodawn-page-edited', $formattedTS )->parse();
-				}
+			// Pick the correct internationalization message, depending on if
+			// the current user is allowed to access the revision's last author's
+			// name or not (hey, it could be RevisionDeleted, as Revision::getUserText()'s
+			// documentation states)
+			if ( $author ) {
+				$msg = wfMessage( 'dusktodawn-page-edited-user', $formattedTS, $author )->parse();
+			} else {
+				$msg = wfMessage( 'dusktodawn-page-edited', $formattedTS )->parse();
 			}
 		}
 
@@ -220,7 +218,6 @@ class DuskToDawnTemplate extends BaseTemplate {
 	}
 
 	function searchBox() {
-		global $wgUseTwoButtonsSearchForm;
 ?>
 						<aside id="search-3" class="widget widget_search">
 							<form role="search" method="get" id="searchform" class="searchform" action="<?php $this->text( 'wgScript' ) ?>">
@@ -229,13 +226,15 @@ class DuskToDawnTemplate extends BaseTemplate {
 									<input type="hidden" name="title" value="<?php $this->text( 'searchtitle' ) ?>"/>
 									<?php
 										echo $this->makeSearchInput( [ 'id' => 'searchInput' ] );
-										echo $this->makeSearchButton( 'go', [ 'id' => 'searchGoButton', 'class' => 'searchButton' ] );
-										if ( $wgUseTwoButtonsSearchForm ) {
-											echo '&#160;';
-											echo $this->makeSearchButton( 'fulltext', [ 'id' => 'mw-searchButton', 'class' => 'searchButton' ] );
-										} else { ?>
-											<div><a href="<?php $this->text( 'searchaction' ) ?>" rel="search"><?php $this->msg( 'powersearch-legend' ) ?></a></div><?php
-										} ?>
+										echo $this->makeSearchButton( 'go',
+											[ 'id' => 'searchGoButton', 'class' => 'searchButton' ]
+										);
+										echo '&#160;';
+										echo $this->makeSearchButton(
+											'fulltext',
+											[ 'id' => 'mw-searchButton', 'class' => 'searchButton' ]
+										);
+									?>
 								</div>
 							</form>
 						</aside>
