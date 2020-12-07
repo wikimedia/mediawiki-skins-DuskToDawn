@@ -13,28 +13,27 @@ class DuskToDawnTemplate extends BaseTemplate {
 
 	/**
 	 * "Page last edited X days Y hours ago" feature for content namespaces
-	 * Almost verbatim copypasta from Aurora (/skins/Aurora/Aurora.skin.php)
+	 * Originally almost verbatim copypasta from Aurora (/skins/Aurora/Aurora.skin.php)
 	 */
 	private function getLastEdited() {
-		$title = $this->getSkin()->getTitle();
+		$skin = $this->getSkin();
+		$title = $skin->getTitle();
 		$msg = '';
 
 		if ( $title->exists() && $title->isContentPage() ) {
-			// First construct a Revision object from the current Title...
-			$page = Wikipage::factory( $title );
+			// First construct a WikiPage object from the current Title...
+			$page = WikiPage::factory( $title );
 			// ...then get its timestamp...
 			$timestamp = $page->getTimestamp();
 			// ...turn it into a UNIX timestamp...
 			$unixTS = wfTimestamp( TS_UNIX, $timestamp );
 			// ..and pass everything to MediaWiki's crazy formatter
 			// function.
-			$formattedTS = $this->getSkin()->getLanguage()->formatTimePeriod(
+			$formattedTS = $skin->getLanguage()->formatTimePeriod(
 				time() - $unixTS,
 				[
 					'noabbrevs' => true,
-					// There doesn't appear to be an 'avoidhours'; if there
-					// were, we'd use it so that this'd match the mockup.
-					'avoid' => 'avoidminutes'
+					'avoid' => 'avoidhours'
 				]
 			);
 
@@ -46,9 +45,9 @@ class DuskToDawnTemplate extends BaseTemplate {
 			// name or not (hey, it could be RevisionDeleted, as Revision::getUserText()'s
 			// documentation states)
 			if ( $author ) {
-				$msg = wfMessage( 'dusktodawn-page-edited-user', $formattedTS, $author )->parse();
+				$msg = $skin->msg( 'dusktodawn-page-edited-user', $formattedTS, $author )->parse();
 			} else {
-				$msg = wfMessage( 'dusktodawn-page-edited', $formattedTS )->parse();
+				$msg = $skin->msg( 'dusktodawn-page-edited', $formattedTS )->parse();
 			}
 		}
 
