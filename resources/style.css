@@ -116,7 +116,6 @@ body {
 	position:relative;
 }
 #page {
-	/* @embed */
 	background: url(images/ornaments-ltr.png) no-repeat 0 0;
 	display: block;
 	margin: 0 auto;
@@ -171,7 +170,6 @@ body {
 	background: -webkit-gradient( linear, left bottom, left top, color-stop( 0, rgb ( 255,203,112 ) ), color-stop(0.3, rgb( 107,138,169 ) ), color-stop(1, rgb(1,44,87) ) );
 }
 #super-wrapper {
-	/* @embed */
 	background: url(images/texture.png) repeat-x 0 0;
 	background-attachment: fixed;
 }
