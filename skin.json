@@ -1,6 +1,6 @@
 {
 	"name": "Dusk To Dawn",
-	"version": "1.4.2",
+	"version": "1.4.3",
 	"author": [
 		"[http://automattic.com/ Automattic]",
 		"Jack Phoenix",
@@ -10,6 +10,9 @@
 	"descriptionmsg": "dusktodawn-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "skin",
+	"requires": {
+		"MediaWiki": ">= 1.34.0"
+	},
 	"ValidSkinNames": {
 		"dusktodawn": "DuskToDawn"
 	},
@@ -41,11 +44,6 @@
 			"scripts": [
 				"resources/js/audio.js"
 			]
-		}
-	},
-	"ResourceModuleSkinStyles": {
-		"dusktodawn": {
-			"+mediawiki.special.preferences.styles": "resources/special.preferences.styles.css"
 		}
 	},
 	"manifest_version": 1
