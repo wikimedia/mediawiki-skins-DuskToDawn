@@ -17,18 +17,4 @@ class SkinDuskToDawn extends SkinTemplate {
 
 		$out->addModules( 'skins.dusktodawn.audio' );
 	}
-
-	/**
-	 * @param $out OutputPage
-	 */
-	function setupSkinUserCss( OutputPage $out ) {
-		parent::setupSkinUserCss( $out );
-
-		// Load CSS via ResourceLoader
-		$out->addModuleStyles( [
-			'mediawiki.skinning.interface',
-			'mediawiki.skinning.content.externallinks',
-			'skins.dusktodawn.styles'
-		] );
-	}
 }
