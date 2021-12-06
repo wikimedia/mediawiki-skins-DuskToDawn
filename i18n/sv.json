@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Mjälten",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Sabelöga"
 		]
 	},
-	"dusktodawn-desc": "En mörk tema som kombinerar gammaldags ekologiska smycken med modern grafisk utformning och typografi",
+	"dusktodawn-desc": "Ett mörk tema som kombinerar gammaldags ekologiska smycken med modern grafisk utformning och typografi",
 	"dusktodawn-jump-to-navigation": "Hoppa till navigering",
 	"dusktodawn-jump-to-search": "Hoppa till sök",
 	"dusktodawn-page-edited": "Sidan redigerades senast {{int:ago|$1}}",

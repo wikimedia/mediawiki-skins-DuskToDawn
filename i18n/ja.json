@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hinaloe"
+			"Hinaloe",
+			"Yusuke1109"
 		]
 	},
+	"dusktodawn-jump-to-navigation": "ナビゲーションに移動",
+	"dusktodawn-jump-to-search": "検索に移動",
 	"dusktodawn-page-edited": "最終更新: {{int:ago|$1}}",
 	"dusktodawn-page-edited-user": "[[User:$2|$2]] による最終更新: {{int:ago|$1}}"
 }
