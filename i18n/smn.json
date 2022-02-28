@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Seipinne"
+		]
+	},
+	"dusktodawn-jump-to-navigation": "Njuškii navigistmân",
+	"dusktodawn-jump-to-search": "Njuškii ucâmân",
+	"dusktodawn-page-edited": "Siijđo hämmejum moonnâm tove {{int:ago|$1}}",
+	"dusktodawn-page-edited-user": "Siijđo hammim moonnâm tove [[User:$2|$2]] {{int:ago|$1}}"
+}
