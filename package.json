@@ -1,4 +1,5 @@
 {
+	"name": "DuskToDawn",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
