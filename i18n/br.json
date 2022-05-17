@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Huñvreüs"
+		]
+	},
+	"dusktodawn-jump-to-navigation": "Mont d’ar merdeerezh",
+	"dusktodawn-jump-to-search": "Mont d’ar c’hlask",
+	"dusktodawn-page-edited": "Pajenn kemmet evit ar wech diwezhañ {{int:ago|$1}}",
+	"dusktodawn-page-edited-user": "Pajenn kemmet evit ar wech diwezhañ {{int:ago|$1}} gant [[User:$2|$2]]"
+}
