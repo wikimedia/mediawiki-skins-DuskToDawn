@@ -9,6 +9,8 @@
  * @see http://wp-themes.com/dusk-to-dawn/
  */
 
+use MediaWiki\MediaWikiServices;
+
 class DuskToDawnTemplate extends BaseTemplate {
 
 	/**
@@ -22,7 +24,12 @@ class DuskToDawnTemplate extends BaseTemplate {
 
 		if ( $title->exists() && $title->isContentPage() ) {
 			// First construct a WikiPage object from the current Title...
-			$page = WikiPage::factory( $title );
+			if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
+				// MediaWiki 1.36+
+				$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
+			} else {
+				$page = WikiPage::factory( $title );
+			}
 			// ...then get its timestamp...
 			$timestamp = $page->getTimestamp();
 			// ...turn it into a UNIX timestamp...
