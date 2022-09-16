@@ -73,8 +73,6 @@ class DuskToDawnTemplate extends BaseTemplate {
 		$skin = $this->getSkin();
 
 		$this->data['pageLanguage'] = $skin->getTitle()->getPageViewLanguage()->getHtmlCode();
-
-		$this->html( 'headelement' );
 ?>
 <div id="super-super-wrapper">
 	<div id="super-wrapper">
@@ -188,9 +186,6 @@ class DuskToDawnTemplate extends BaseTemplate {
 	</div><!-- #super-wrapper -->
 </div><!-- #super-super-wrapper -->
 <?php
-		$this->printTrail();
-		echo Html::closeElement( 'body' );
-		echo Html::closeElement( 'html' );
 	} // end of execute() method
 
 	/**

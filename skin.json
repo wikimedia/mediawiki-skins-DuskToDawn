@@ -11,17 +11,20 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "skin",
 	"requires": {
-		"MediaWiki": ">= 1.35.0"
+		"MediaWiki": ">= 1.39.0"
 	},
 	"ValidSkinNames": {
 		"dusktodawn": {
 			"displayname": "DuskToDawn",
-			"class": "SkinDuskToDawn",
+			"class": "SkinTemplate",
 			"args": [ {
 				"name": "dusktodawn",
+				"bodyOnly": true,
+				"template": "DuskToDawnTemplate",
+				"scripts": [
+					"skins.dusktodawn.audio"
+				],
 				"styles": [
-					"mediawiki.skinning.interface",
-					"mediawiki.skinning.content.externallinks",
 					"skins.dusktodawn.styles"
 				]
 			} ]
@@ -33,7 +36,6 @@
 		]
 	},
 	"AutoloadClasses": {
-		"SkinDuskToDawn": "includes/SkinDuskToDawn.php",
 		"DuskToDawnTemplate": "includes/DuskToDawnTemplate.php"
 	},
 	"ResourceFileModulePaths": {
@@ -42,6 +44,21 @@
 	},
 	"ResourceModules": {
 		"skins.dusktodawn.styles": {
+			"class": "ResourceLoaderSkinModule",
+			"features": {
+				"content-links": true,
+				"content-links-external": true,
+				"content-media": true,
+				"interface-message-box": true,
+				"interface-category": true,
+				"content-tables": true,
+				"i18n-ordered-lists": true,
+				"i18n-all-lists-margins": true,
+				"i18n-headings": true,
+				"elements": true,
+				"interface": true,
+				"logo": true
+			},
 			"styles": {
 				"resources/print.css": {
 					"media": "print"
