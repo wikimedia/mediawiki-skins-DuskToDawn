@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"dusktodawn-desc": "Temna tema, ki združuje stare organske okraske s sodobnim dizajnom in tipografijo",
+	"dusktodawn-jump-to-navigation": "Pojdi na navigacijo",
+	"dusktodawn-jump-to-search": "Pojdi na iskanje",
+	"dusktodawn-page-edited": "Stran nazadnje urejena {{int:ago|$1}}",
+	"dusktodawn-page-edited-user": "Stran je nazadnje urejal/a [[User:$2|$2]] {{int:ago|$1}}"
+}
