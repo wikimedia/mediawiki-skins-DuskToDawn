@@ -33,7 +33,7 @@ class DuskToDawnTemplate extends BaseTemplate {
 			// ...then get its timestamp...
 			$timestamp = $page->getTimestamp();
 			// ...turn it into a UNIX timestamp...
-			$unixTS = wfTimestamp( TS_UNIX, $timestamp );
+			$unixTS = (int)wfTimestamp( TS_UNIX, $timestamp );
 			// ..and pass everything to MediaWiki's crazy formatter
 			// function.
 			$formattedTS = $skin->getLanguage()->formatTimePeriod(
@@ -193,6 +193,7 @@ class DuskToDawnTemplate extends BaseTemplate {
 	 */
 	protected function renderPortals( $sidebar ) {
 		if ( !isset( $sidebar['SEARCH'] ) ) {
+			// @phan-suppress-next-line PhanTypeMismatchDimAssignment
 			$sidebar['SEARCH'] = true;
 		}
 		if ( !isset( $sidebar['TOOLBOX'] ) ) {
