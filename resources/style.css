@@ -123,7 +123,6 @@ body {
 	width: 978px;
 }
 #main {
-	/* @embed */
 	background: url(images/page-ltr.gif) repeat-y 0 0;
 	border-radius: 3px;
 	margin: 0 auto;
@@ -174,7 +173,6 @@ body {
 	background-attachment: fixed;
 }
 #wrapper {
-	/* @embed */
 	background: url(images/ornaments-bottom.png) no-repeat center bottom;
 }
 #main {
@@ -349,7 +347,6 @@ textarea {
 }
 /* ashley change - original rule was: input#s */
 input#searchInput {
-	/* @embed */
 	background: #000 url(images/search-ltr.png) no-repeat scroll 10px 8px;
 	border: 1px solid #222;
 	border-radius: 3px;
@@ -359,7 +356,6 @@ input#searchInput {
 	width: 77%;
 }
 #primary input#searchInput {
-	/* @embed */
 	background: #fafafa url(images/search-ltr.png) no-repeat scroll 10px 8px;
 	border: 1px solid #e7d9b9;
 }
@@ -588,7 +584,6 @@ object {
 }
 .widget-title,
 .menu-title {
-	/* @embed */
 	background: url(images/widget_heading.png) no-repeat 0 6px;
 	border-bottom: 1px solid #252832;
 	color: #fff;
@@ -680,18 +675,15 @@ footer#colophon #f-poweredbyico {
  * ironically enough this is easier than flipping the image...
  */
 /* @noflip */body.rtl input#searchInput {
-	/* @embed */
 	background: #000 url(images/search-ltr.png) no-repeat scroll 96% 8px;
 }
 
 /* @noflip */body.rtl #primary input#searchInput {
-	/* @embed */
 	background: #fafafa url(images/search-ltr.png) no-repeat scroll 98% 8px;
 }
 
 /* @noflip */body.rtl .widget-title,
 /* @noflip */body.rtl .menu-title {
-	/* @embed */
 	background: url(images/widget_heading.png) no-repeat right 6px;
 }
 
