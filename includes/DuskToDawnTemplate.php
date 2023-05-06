@@ -281,7 +281,7 @@ class DuskToDawnTemplate extends BaseTemplate {
 		}
 		// Avoid PHP 7.1 warning of passing $this by reference
 		$template = $this;
-		Hooks::run( 'SkinTemplateToolboxEnd', [ &$template, true ] );
+		MediaWikiServices::getInstance()->getHookContainer()->run( 'SkinTemplateToolboxEnd', [ &$template, true ] );
 ?>
 		</ul>
 	</aside>
