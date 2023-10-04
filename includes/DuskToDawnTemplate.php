@@ -28,6 +28,7 @@ class DuskToDawnTemplate extends BaseTemplate {
 				// MediaWiki 1.36+
 				$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
 			} else {
+				// @phan-suppress-next-line PhanUndeclaredStaticMethod Removed in MW 1.41 or so
 				$page = WikiPage::factory( $title );
 			}
 			// ...then get its timestamp...
