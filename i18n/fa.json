@@ -3,10 +3,11 @@
 		"authors": [
 			"Alirezaaa",
 			"FarsiNevis",
-			"Reza1615"
+			"Reza1615",
+			"Ebraminio"
 		]
 	},
 	"dusktodawn-jump-to-search": "پرش به جستجو",
 	"dusktodawn-page-edited": "آخرین ویرایش صفحه {{int:پیش|$1}}",
-	"dusktodawn-page-edited-user": "آخرین ویرایش صفحه {{int:ago|$1}} توسط [[User:$2|$2]] صورت گرفته‌است"
+	"dusktodawn-page-edited-user": "آخرین ویرایش صفحه {{int:ago|$1}} توسط [[User:$2|$2]] صورت گرفته است"
 }
