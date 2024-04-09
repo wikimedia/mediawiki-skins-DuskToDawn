@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Къарачайлы"
+		]
+	},
+	"dusktodawn-desc": "Модерн дизайн эм басма бла эски стилли органик джасауланы бирлешдирген мутхуз тема.",
+	"dusktodawn-jump-to-navigation": "Навигациягъа кёч",
+	"dusktodawn-jump-to-search": "Излеуге кёч",
+	"dusktodawn-page-edited": "Эм ахыр бетни тюзетилгени {{int:ago|$1}}",
+	"dusktodawn-page-edited-user": "Эм ахыр кере бетни {{int:ago|$1}} тюзетген [[User:$2|$2]]"
+}
