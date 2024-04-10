@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tacsipacsi"
+			"Tacsipacsi",
+			"Dj"
 		]
 	},
+	"dusktodawn-desc": "Sötét téma, amely ötvözi a régi stílusú organikus díszeket a modern dizájnnal és tipográfiával",
 	"dusktodawn-jump-to-navigation": "Ugrás a navigációhoz",
-	"dusktodawn-jump-to-search": "Ugrás a kereséshez"
+	"dusktodawn-jump-to-search": "Ugrás a kereséshez",
+	"dusktodawn-page-edited": "Oldal legutóbb frissítve {{int:ago|$1}}",
+	"dusktodawn-page-edited-user": "A lapot legutóbb [[User:$2|$2]] szerkesztette {{int:ago|$1}}"
 }
