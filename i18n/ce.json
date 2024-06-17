@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Умар"
+			"Умар",
+			"Исмаил Садуев"
 		]
 	},
 	"dusktodawn-jump-to-navigation": "Навигацин тӀегӀо",
 	"dusktodawn-jump-to-search": "Лахарна тӀегӀо",
-	"dusktodawn-page-edited": "АгӀонан тӀаьххьара хийцамаш бина {{int:хьалха|$1}}",
-	"dusktodawn-page-edited-user": "АгӀонан тӀаьххьара хийцамаш бина {{int:хьалха|$1}} [[User:$2|$2]]"
+	"dusktodawn-page-edited": "АгӀо тӀаьххьара нисйина {{int:хьалха|$1}}",
+	"dusktodawn-page-edited-user": "АгӀо тӀаьххьара нисйина {{int:хьалха|$1}} [[User:$2|$2]]"
 }
