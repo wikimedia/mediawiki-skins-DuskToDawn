@@ -8,6 +8,7 @@
 	],
 	"url": "https://www.mediawiki.org/wiki/Skin:DuskToDawn",
 	"descriptionmsg": "dusktodawn-desc",
+	"namemsg": "skinname-dusktodawn",
 	"license-name": "GPL-2.0-or-later",
 	"type": "skin",
 	"requires": {
