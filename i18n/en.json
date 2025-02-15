@@ -7,5 +7,6 @@
 	"dusktodawn-jump-to-navigation": "Jump to navigation",
 	"dusktodawn-jump-to-search": "Jump to search",
 	"dusktodawn-page-edited": "Page last edited {{int:ago|$1}}",
-	"dusktodawn-page-edited-user": "Page last edited {{int:ago|$1}} by [[User:$2|$2]]"
+	"dusktodawn-page-edited-user": "Page last edited {{int:ago|$1}} by [[User:$2|$2]]",
+	"skinname-dusktodawn": "Dusk To Dawn"
 }
