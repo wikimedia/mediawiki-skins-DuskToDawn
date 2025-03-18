@@ -9,6 +9,8 @@
  * @see http://wp-themes.com/dusk-to-dawn/
  */
 
+use MediaWiki\Html\Html;
+use MediaWiki\Linker\Linker;
 use MediaWiki\MediaWikiServices;
 
 class DuskToDawnTemplate extends BaseTemplate {
