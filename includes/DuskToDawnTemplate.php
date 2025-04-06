@@ -26,13 +26,7 @@ class DuskToDawnTemplate extends BaseTemplate {
 
 		if ( $title->exists() && $title->isContentPage() ) {
 			// First construct a WikiPage object from the current Title...
-			if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
-				// MediaWiki 1.36+
-				$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
-			} else {
-				// @phan-suppress-next-line PhanUndeclaredStaticMethod Removed in MW 1.41 or so
-				$page = WikiPage::factory( $title );
-			}
+			$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
 			// ...then get its timestamp...
 			$timestamp = $page->getTimestamp();
 			// ...turn it into a UNIX timestamp...
@@ -75,7 +69,7 @@ class DuskToDawnTemplate extends BaseTemplate {
 
 		$skin = $this->getSkin();
 
-		$this->data['pageLanguage'] = $skin->getTitle()->getPageViewLanguage()->getHtmlCode();
+		$this->data['pageLanguage'] = $skin->getTitle()->getPageLanguage()->getHtmlCode();
 ?>
 <div id="super-super-wrapper">
 	<div id="super-wrapper">
