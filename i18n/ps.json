@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"dusktodawn-desc": "يو تياره شاليد چې زړه بنسټيزه گاڼه له نوې سکښتۍ او ليکنگرۍ سره يوځای کوي",
+	"dusktodawn-jump-to-navigation": "چلند ته ورتلل",
+	"dusktodawn-jump-to-search": "پلټنې ته ورتلل",
+	"dusktodawn-page-edited": "د مخ وروستی سمون {{int:ago|$1}}",
+	"dusktodawn-page-edited-user": "مخ وروستی ځل {{int:ago|$1}} د [[User:$2|$2]] له خوا سم شوی"
+}
