@@ -190,7 +190,6 @@ class DuskToDawnTemplate extends BaseTemplate {
 	 */
 	protected function renderPortals( $sidebar ) {
 		if ( !isset( $sidebar['SEARCH'] ) ) {
-			// @phan-suppress-next-line PhanTypeMismatchDimAssignment
 			$sidebar['SEARCH'] = true;
 		}
 		if ( !isset( $sidebar['TOOLBOX'] ) ) {
