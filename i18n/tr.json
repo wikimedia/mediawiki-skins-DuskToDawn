@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"BaRaN6161 TURK"
+			"BaRaN6161 TURK",
+			"HakanIST"
 		]
 	},
+	"dusktodawn-prefs-talkpage": "[[mw:Skin talk:DuskToDawn|{{int:talk}}]]",
 	"dusktodawn-desc": "Modern tasarımlı ve tipografi ile eski tip organik süs eşyaları saran koyu bir tema",
 	"dusktodawn-jump-to-navigation": "Gezinti kısmına atla",
 	"dusktodawn-jump-to-search": "Arama kısmına atla",
 	"dusktodawn-page-edited": "En son düzenlenen sayfa {{int:ago|$1}}",
-	"dusktodawn-page-edited-user": "En son düzenleme {{int:ago|$1}} yapan [[User:$2|$2]]"
+	"dusktodawn-page-edited-user": "En son düzenleme {{int:ago|$1}} yapan [[User:$2|$2]]",
+	"skinname-dusktodawn": "Dusk To Dawn"
 }
