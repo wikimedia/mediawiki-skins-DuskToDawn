@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"dusktodawn-prefs-talkpage": "[[mw:Skin talk:DuskToDawn|{{int:talk}}]]",
+	"dusktodawn-desc": "Tmavá téma spájajúca organické ornamenty starého štýlu s moderným dizajnom a typografiou",
+	"dusktodawn-jump-to-navigation": "Skočiť na navigáciu",
+	"dusktodawn-jump-to-search": "Skočiť na vyhľadávanie",
+	"dusktodawn-page-edited": "Stránka naposledy upravená {{int:ago|$1}}",
+	"dusktodawn-page-edited-user": "Stránka naposledy upravená {{int:ago|$1}} používateľom [[User:$2|$2]]",
+	"skinname-dusktodawn": "Dusk To Dawn"
+}
