@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bachounda"
+		]
+	},
+	"dusktodawn-desc": "ثيم مظلم يمزج الزخارف العضوية القديمة بالتصميم الحديث والطباعة.",
+	"dusktodawn-jump-to-navigation": "أقفز للتصفح",
+	"dusktodawn-jump-to-search": "أقفز للبحث",
+	"dusktodawn-page-edited": "آخر تعديل على الصفحة كان {{int:ago|$1}}",
+	"dusktodawn-page-edited-user": "آخر تعديل على الصفحة كان {{int:ago|$1}} من طرف [[User:$2|$2]]"
+}
